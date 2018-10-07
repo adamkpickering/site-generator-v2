@@ -11,7 +11,7 @@ for curdir, dirs, files in os.walk('.'):
     break
 
 output = []
-output.append('<h3>Navigation<h3>')
+output.append('<h3>Navigation</h3>')
 output.append('<ul id="navigation">')
 
 for dir in subdirs:
