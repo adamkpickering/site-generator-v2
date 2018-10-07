@@ -1,6 +1,6 @@
 include standard_defs.mk
 
-index.html : index.md $(if $(SUBDIRS), navigation.html)
+index.html : index.md $(if $(SUBDIRS), navigation.html) $(TOP_HTML) $(BOTTOM_HTML)
         cp $(TOP_HTML) index.html
 	markdown index.md >> index.html
         $(if $(SUBDIRS), cat navigation.html >> index.html)
