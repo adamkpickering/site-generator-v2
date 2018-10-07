@@ -1,2 +1,3 @@
 *.html
 **/.makepp
+src/standard_defs.mk
