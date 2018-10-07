@@ -1,0 +1,50 @@
+3/usr/bin/makepp clean
+VERSION2.0.98.55.22.1x86_64-linux-gnu-thread-multi
+DEBUG0
+LOAD17a8800Makeppfile1a6d5f8/home/adam/dev/site-generator-v2/src1a6d5f8
+TRY17a8800
+USEdefault rule
+DEPEND17a8800
+UP_TO_DATE17a8800
+PREBUILD1f5a370standard_defs.mk1a6d5f8/home/adam/dev/site-generator-v2/src/Makeppfile:1
+TRY1f5a370
+USEdefault rule
+DEPEND1f5a370
+UP_TO_DATE1f5a370
+LOAD_INCL1f5a370/home/adam/dev/site-generator-v2/src/Makeppfile:1
+LOAD_INCL1f6dc98makepp_builtin_rules.mk17b1bd8/usr/share/makepp17a8800
+LOAD_END17a8800
+TRY1ea08d0clean1a6d5f8
+USE/home/adam/dev/site-generator-v2/src/Makeppfile:10
+LOAD1f8c238Makeppfile1f7de78/home/adam/dev/site-generator-v2/src/contact1f7de78
+TRY1f8c238
+USEdefault rule
+DEPEND1f8c238
+UP_TO_DATE1f8c238
+PREBUILD1f5a370/home/adam/dev/site-generator-v2/src/contact/Makeppfile:1
+LOAD_INCL1f5a370/home/adam/dev/site-generator-v2/src/contact/Makeppfile:1
+LOAD_INCL1f6dc981f8c238
+LOAD_END1f8c238
+LOAD1f9e088Makeppfile1f7def0/home/adam/dev/site-generator-v2/src/writings1f7def0
+TRY1f9e088
+USEdefault rule
+DEPEND1f9e088
+UP_TO_DATE1f9e088
+PREBUILD1f5a370/home/adam/dev/site-generator-v2/src/writings/Makeppfile:1
+LOAD_INCL1f5a370/home/adam/dev/site-generator-v2/src/writings/Makeppfile:1
+LOAD_INCL1f6dc981f9e088
+LOAD_END1f9e088
+SCAN_INFO1ea08d0
+LEX_RULE1ea08d0info not cached
+PARSErm *.html1a6d5f8/home/adam/dev/site-generator-v2/src/Makeppfile:10
+LOAD_DEFAULT1fbbc30bin1fbba20/home/adam/.local
+LOAD_INCL1f6dc981fc06b0makepp_default_makefile.mk17b1bd8
+LOAD_END1fc06b0
+TRY225cc10rm225ca00/bin
+USEdefault rule
+DEPEND225cc10
+UP_TO_DATE225cc10
+DEPEND1ea08d0225cc10
+BUILD_PHONY1ea08d0
+SUCCESS/home/adam/dev/site-generator-v2/src/Makeppfile:101ea08d0
+N_FILES010

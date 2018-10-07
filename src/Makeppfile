@@ -1,0 +1,11 @@
+include standard_defs.mk
+
+index.html : index.md navigation.html
+	markdown index.md > index.html
+        cat navigation.html >> index.html
+
+navigation.html : */index.html
+        $(GET_NAVIGATION) > navigation.html
+
+$(phony clean) : */clean
+        rm *.html

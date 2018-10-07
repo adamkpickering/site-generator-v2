@@ -1,0 +1,13 @@
+SIGNATURE=1538873358,132
+IMPLICIT_DEPS=
+INCLUDE_SFXS=
+CWD=.
+COMMAND=/home/adam/dev/new_website/get_navigation.py > navigation.html
+IMPLICIT_TARGETS=navigation.html
+BUILD_SIGNATURE=1538873358,132
+META_DEPS=/home/adam/dev/new_website/get_navigation.py
+INCLUDE_PATHS=
+DEP_SIGS=1538868014,6511538873357,1501538873034,636
+ARCH=x86_64-linux-gnu-thread-multi
+SORTED_DEPS=../../new_website/get_navigation.pycontact/index.htmlwritings/index.html
+END=

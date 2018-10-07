@@ -1,0 +1,13 @@
+INCLUDE_PATHS=
+CWD=.
+COMMAND=markdown index.md > index.htmlcat navigation.html >> index.html
+SORTED_DEPS=/bin/catindex.md/usr/bin/markdownnavigation.html
+IMPLICIT_TARGETS=index.html
+ARCH=x86_64-linux-gnu-thread-multi
+INCLUDE_SFXS=
+DEP_SIGS=1488478042,520801538872004,2021444267274,357971538873033,46
+IMPLICIT_DEPS=
+BUILD_SIGNATURE=1538873033,262
+SIGNATURE=1538873033,262
+META_DEPS=/bin/cat/usr/bin/markdown
+END=

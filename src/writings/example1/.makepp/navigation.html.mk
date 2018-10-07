@@ -1,0 +1,13 @@
+COMMAND=/home/adam/dev/new_website/get_navigation.py > navigation.html
+CWD=.
+SORTED_DEPS=../../../../new_website/get_navigation.py
+INCLUDE_PATHS=
+INCLUDE_SFXS=
+IMPLICIT_TARGETS=navigation.html
+ARCH=x86_64-linux-gnu-thread-multi
+BUILD_SIGNATURE=1538873033,46
+SIGNATURE=1538873033,46
+DEP_SIGS=1538868014,651
+IMPLICIT_DEPS=
+META_DEPS=/home/adam/dev/new_website/get_navigation.py
+END=
