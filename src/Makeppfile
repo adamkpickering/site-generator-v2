@@ -1,11 +1,15 @@
 include standard_defs.mk
 
-index.html : index.md navigation.html
+SUBDIRS = contact writings
+
+index.html : index.md $(if $(SUBDIRS), navigation.html)
 	markdown index.md > index.html
-        cat navigation.html >> index.html
+        $(if $(SUBDIRS), cat navigation.html >> index.html)
 
-navigation.html : */index.html
+ifdef SUBDIRS
+navigation.html : $(SUBDIRS)/index.html
         $(GET_NAVIGATION) > navigation.html
+endif
 
-$(phony clean) : */clean
-        rm *.html
+$(phony clean) : $(if $(SUBDIRS), $(SUBDIRS)/clean)
+        &rm -fm .makepp_log $(only_targets *)
