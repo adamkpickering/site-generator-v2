@@ -7,6 +7,7 @@ index.html : index.md $(if $(SUBDIRS), navigation.html) $(TOP_HTML) $(BOTTOM_HTM
 	markdown index.md >> index.html
         $(if $(SUBDIRS), cat navigation.html >> index.html)
         cat $(BOTTOM_HTML) >> index.html
+        tidy -config $(TIDY_CONFIG) index.html
 
 ifdef SUBDIRS
 navigation.html : $(SUBDIRS)/index.html

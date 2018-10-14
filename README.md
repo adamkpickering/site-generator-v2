@@ -1,7 +1,7 @@
 # site-generator-v2
 
 This is a very simple static site generator that uses
-makepp (make's cousin that handles recursion better).
+makepp (make's cousin that handles recursion sanely).
 
 
 ## Installation
@@ -13,7 +13,6 @@ Simply run:
 
 ## To Do
 
-- format each index.html with a shell command
 - generate a site map (I'm thinking it should look similar to the output of `tree`)
 - improve the CSS
 - incorporate script that scans for broken links
