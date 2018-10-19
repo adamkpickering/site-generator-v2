@@ -30,19 +30,26 @@ Simply run:
 ## How it Works
 
 The source code for the website resides in `src/`.
+The site consists of directories, where each
+directory corresponds to a web page.
 Every directory must have at least two files:
 
-- index.md: The main content of the page.
-  Converted to HTML when the site is compiled.
+- `index.md`: The main content of the page.
+  Converted to an `index.html` file when the site is compiled,
+  and sandwiched between `templates/top.html` and `templates/bottom.html`.
 
-- Makeppfile: The makefile. You must explicitly add each subdirectory
+- `Makeppfile`: The makefile. You must explicitly add each subdirectory
   you want included in the compilation to the variable `SUBDIRS`.
+  `src/Makeppfile` does many things automatically, and can
+  usually be used without any changes other than to the `SUBDIRS` variable.
 
 Optionally, each directory may have subdirectories.
-The same requirements apply to those.
+The same requirements as mentioned above apply to those.
+Subdirectories appear in the `Navigation` secion
+at the bottom of the page.
 
-The result of compilation is a structure of directories
-with only an `index.html` file and any subdirectories.
-In the future, pictures may be added.
+Theoretically the site will work with pictures,
+which can be added in the directory of the page on which they appear.
+This is, as of yet, untested.
 
 You can see an example site in `src/`.
