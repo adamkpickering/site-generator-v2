@@ -2,24 +2,29 @@
 
 This is a very simple static site generator that uses
 makepp (make's cousin that handles recursion sanely).
+This lets you automate the building of your site
+as much or as little as you want, and in a modular fashion.
 
 
 ## Installation
 
 Simply run:
 
-  ./install.sh
+    ./install.sh
 
 
 ## To Do
 
 - generate a site map (I'm thinking it should look similar to the output of `tree`)
 - improve the CSS
+- move the CSS to a separate file
 - incorporate script that scans for broken links
 - add support for pictures
 - improve documentation
 - incorporate a dev server that monitors .md files for changes
   and automatically reloads the page
+- find an HTML beautifier that supports HTML5 and change meta charset tag
+  on top.html to shorter version
 
 
 ## How it Works

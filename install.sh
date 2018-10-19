@@ -5,6 +5,7 @@ sudo apt install makepp -y
 sudo apt install markdown -y
 sudo apt install python3 -y
 sudo apt install tidy -y
+sudo apt install rsync -y
 echo "Done.\n"
 
 echo "Configuring src/standard_defs.mk..."
